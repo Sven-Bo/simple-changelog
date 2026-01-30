@@ -1,10 +1,10 @@
 <?php
 /**
  * Plugin Name: Simple Changelog
- * Plugin URI: https://github.com/flavflavor/simple-changelog
+ * Plugin URI: https://github.com/Sven-Bo/simple-changelog
  * Description: A simple changelog manager for products with a beautiful timeline display.
  * Version: 1.0.0
- * Author: flavflavor
+ * Author: Sven-Bo
  * License: GPL v2 or later
  * Text Domain: simple-changelog
  */
@@ -22,7 +22,7 @@ require_once SCL_PLUGIN_DIR . 'plugin-update-checker.php';
 use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 
 $scl_update_checker = PucFactory::buildUpdateChecker(
-    'https://github.com/flavflavor/simple-changelog/',
+    'https://github.com/Sven-Bo/simple-changelog/',
     __FILE__,
     'simple-changelog'
 );
