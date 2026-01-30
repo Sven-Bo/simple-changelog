@@ -1,0 +1,246 @@
+.scl-admin-wrap {
+    margin-top: 20px;
+}
+
+.scl-admin-container {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.scl-sidebar {
+    width: 280px;
+    flex-shrink: 0;
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.scl-sidebar h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.scl-add-new {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.scl-product-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.scl-product-list li {
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+}
+
+.scl-product-list li:last-child {
+    border-bottom: none;
+}
+
+.scl-product-list li a {
+    text-decoration: none;
+    color: #2271b1;
+    font-weight: 500;
+    display: block;
+}
+
+.scl-product-list li a:hover {
+    color: #135e96;
+}
+
+.scl-product-list li.active a {
+    color: #1d2327;
+    font-weight: 600;
+}
+
+.scl-shortcode-hint {
+    display: block;
+    font-size: 11px;
+    color: #888;
+    font-family: monospace;
+    margin-top: 4px;
+}
+
+.scl-main-content {
+    flex: 1;
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    border-radius: 4px;
+    padding: 30px;
+}
+
+.scl-form-row {
+    margin-bottom: 25px;
+}
+
+.scl-form-row label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.scl-form-row input[type="text"] {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px 12px;
+    font-size: 14px;
+}
+
+.scl-form-row textarea {
+    width: 100%;
+    font-family: 'Consolas', 'Monaco', monospace;
+    font-size: 13px;
+    line-height: 1.6;
+    padding: 15px;
+    border: 1px solid #8c8f94;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.scl-form-row textarea:focus {
+    border-color: #2271b1;
+    box-shadow: 0 0 0 1px #2271b1;
+    outline: none;
+}
+
+.scl-form-row .description {
+    margin-top: 8px;
+    color: #646970;
+    font-size: 13px;
+}
+
+.scl-shortcode-box {
+    background: #f6f7f7;
+    border: 1px solid #c3c4c7;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 25px;
+}
+
+.scl-shortcode-main {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #dcdcde;
+}
+
+.scl-shortcode-box code {
+    background: #fff;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+.scl-shortcode-options {
+    font-size: 13px;
+    color: #50575e;
+}
+
+.scl-shortcode-options strong {
+    display: block;
+    margin-bottom: 8px;
+    color: #1d2327;
+}
+
+.scl-shortcode-options ul {
+    margin: 0 0 10px 20px;
+    padding: 0;
+}
+
+.scl-shortcode-options li {
+    margin-bottom: 4px;
+}
+
+.scl-shortcode-options code {
+    padding: 2px 6px;
+    font-size: 12px;
+}
+
+.scl-example {
+    color: #646970;
+    font-style: italic;
+}
+
+.scl-form-actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.scl-message {
+    margin-top: 20px;
+    padding: 12px 15px;
+    border-radius: 4px;
+}
+
+.scl-message.success {
+    background: #d4edda;
+    border: 1px solid #c3e6cb;
+    color: #155724;
+}
+
+.scl-message.error {
+    background: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+}
+
+.scl-textarea-actions {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.scl-validation-result {
+    margin-top: 10px;
+    padding: 12px 15px;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+.scl-validation-result.valid {
+    background: #d4edda;
+    border: 1px solid #c3e6cb;
+    color: #155724;
+}
+
+.scl-validation-result.error {
+    background: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+}
+
+.scl-validation-result.warning {
+    background: #fff3cd;
+    border: 1px solid #ffc107;
+    color: #856404;
+}
+
+.scl-validation-result ul {
+    margin: 5px 0 0 20px;
+    padding: 0;
+}
+
+.scl-validation-result li {
+    margin-bottom: 3px;
+}
+
+.scl-errors {
+    margin-bottom: 10px;
+}
+
+.scl-warnings {
+    margin-bottom: 0;
+}
