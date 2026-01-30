@@ -56,6 +56,10 @@ New: Initial release with core functionality.
 [changelog id="1" version="2.0"] // Show specific version only
 ```
 
+## Author
+
+**Sven Bosau** - [pythonandvba.com](https://pythonandvba.com)
+
 ## License
 
 GPL v2 or later

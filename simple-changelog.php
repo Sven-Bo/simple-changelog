@@ -3,8 +3,9 @@
  * Plugin Name: Simple Changelog
  * Plugin URI: https://github.com/Sven-Bo/simple-changelog
  * Description: A simple changelog manager for products with a beautiful timeline display.
- * Version: 1.0.0
- * Author: Sven-Bo
+ * Version: 1.0.1
+ * Author: Sven Bosau
+ * Author URI: https://pythonandvba.com
  * License: GPL v2 or later
  * Text Domain: simple-changelog
  */
