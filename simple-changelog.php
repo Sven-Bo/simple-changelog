@@ -3,7 +3,7 @@
  * Plugin Name: Simple Changelog
  * Plugin URI: https://github.com/Sven-Bo/simple-changelog
  * Description: A simple changelog manager for products with a beautiful timeline display.
- * Version: 1.0.1
+ * Version: 1.0.2
  * Author: Sven Bosau
  * Author URI: https://pythonandvba.com
  * License: GPL v2 or later
@@ -14,12 +14,12 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
-define('SCL_VERSION', '1.0.0');
+define('SCL_VERSION', '1.0.2');
 define('SCL_PLUGIN_DIR', plugin_dir_path(__FILE__));
 define('SCL_PLUGIN_URL', plugin_dir_url(__FILE__));
 
 // Plugin Update Checker
-require_once SCL_PLUGIN_DIR . 'plugin-update-checker.php';
+require_once SCL_PLUGIN_DIR . 'plugin-update-checker/plugin-update-checker.php';
 use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 
 $scl_update_checker = PucFactory::buildUpdateChecker(
